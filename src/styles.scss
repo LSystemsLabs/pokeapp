@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+
+@font-face {
+  font-family: "PokemonGB";
+  src: url("./assets/fonts/Pokemon_GB.eot") format("eot"),
+    url("./assets/fonts/Pokemon_GB.woff") format("woff"),
+    url("./assets/fonts/Pokemon_GB.ttf") format("truetype"),
+    url("./assets/fonts/Pokemon_GB.svg#PokemonGB") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "PokemonGB";
+}
