@@ -17,7 +17,8 @@ Theme and Core styles are the necessary css files of the components, visit the T
 
 angular.json
 
-```...
+```json
+...
 "styles": [
     "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
     "node_modules/primeng/resources/primeng.min.css",
@@ -26,7 +27,7 @@ angular.json
 
 add in style.scss
 
-```
+```scss
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
