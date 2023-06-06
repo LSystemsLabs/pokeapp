@@ -17,23 +17,21 @@ Theme and Core styles are the necessary css files of the components, visit the T
 
 angular.json
 
-````...
+`...
 "styles": [
     "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
     "node_modules/primeng/resources/primeng.min.css",
     ...
-]```
+]`
 
 add in style.scss
 
-```
-
+`
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
 
-```
-
+`
 
 ## Pokeapp
 
@@ -62,5 +60,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
 ```
-````
+
+```
+
+```
+
+```
