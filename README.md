@@ -23,7 +23,8 @@ angular.json
     "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
     "node_modules/primeng/resources/primeng.min.css",
     ...
-]```
+]
+```
 
 add in style.scss
 
@@ -31,7 +32,6 @@ add in style.scss
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
-
 ```
 
 ## Pokeapp
