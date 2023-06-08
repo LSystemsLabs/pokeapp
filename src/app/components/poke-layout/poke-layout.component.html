@@ -1,0 +1,7 @@
+<ng-container *ngIf="_pokemons$ | async as pokemons">
+    <div class="card">
+        <app-poke-card *ngFor="let pokemon of pokemons" [pokemon]="pokemon"
+            (onShowMoves)="showMoves($event)"></app-poke-card>
+
+    </div>
+</ng-container>

@@ -1,0 +1,14 @@
+<div class="poke-card" *ngIf="pokemonAttrs$ | async as attrs">
+    <p-card [header]="pokemon.name | uppercase" [subheader]="nPokemon" [style]="{ width: '360px' }">
+        <ng-template pTemplate="header">
+            <p-image [src]="attrs.avatar" [alt]="pokemon.name"></p-image>
+        </ng-template>
+        <p style="font-weight: bold;">Tipos</p>
+        <span>{{types}}</span>
+        <!-- <span>{{moves}}</span> -->
+        <ng-template pTemplate="footer">
+            <p-button label="Movimientos" styleClass="p-button-raised p-button-warning"
+                (onClick)="showMoves(attrs)"></p-button>
+        </ng-template>
+    </p-card>
+</div>

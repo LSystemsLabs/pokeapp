@@ -7,11 +7,22 @@
         <span>POKE APP</span>
       </div>
       <div class="p-toolbar-group-end">
+        <div class="flex flex-column gap-2">
+          <label htmlFor="username">Tipo de pokemon</label>
+          <p-dropdown [options]="types" optionLabel="name"></p-dropdown>
+
+        </div>
+
+        <span class="p-input-icon-left">
+          <i class="pi pi-search"></i>
+          <input type="text" pInputText [formControl]="searchControl" placeholder="Buscar..." />
+        </span>
       </div>
     </p-toolbar>
   </div>
   <div class="content">
     <!-- Aquí puedes insertar tu componente principal -->
+    <app-poke-layout></app-poke-layout>
   </div>
   <div class="footer">
     <span>Desarrollado por <a href="https://lsystems.com.mx" target="_blank">lsystems</a></span>
